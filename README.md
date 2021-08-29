@@ -26,3 +26,16 @@ Overall accuracy of the model will be the primary success metric. Sensitivity li
 
 There will be a lot more observations on non-medalists than medalists, so it could be beneficial to include over/under sampling for our model in order to counteract some of the sampling biases inherent in the dataset. 
 
+## Technology Overview
+### Data Cleaning and Analysis
+Python will be the main language used for data cleaning and analysis. Several packages will be utilized, including Pandas, NumPy, SciKitLearn, ImbalancedLearn, and DateTime functions.
+
+### Database Storage
+The data for the project will be stored in a PostgreSQL relational database.
+
+### Machine Learning
+The machine learning model will be created with the SciKitLearn and ImbalancedLearn packages. As the project will require over/under sampling due to class imbalances, the approach will rely on either random over/under-sampling, SMOTE, Cluster Centroid Undersampling, or SMOTEENN.
+
+### Dashboard
+The group plans to utilize a Tableau dashboard to present the findings and allow users to sort and filter data based on their required analysis.
+
