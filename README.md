@@ -10,11 +10,11 @@ Official dataset outlining olympic events, atheltes, participating countries, an
 https://www.kaggle.com/rio2016/olympic-games
 
 ## Group Roles 
-* Github Master - Janelle 
-* Database - Ricardo 
-* ETL - Kristina 
-* Machine learning - Matt 
-* Final Visuals - Billy 
+* Github master (square) - Janelle 
+* Database (circle)- Ricardo 
+* ETL/technology (X) - Kristina 
+* Machine learning (triangle) - Matt 
+* Final visuals/technology (X) - Billy 
 
 ## Machine Learning Model 
 We plan on creating multiple models in order to find a model with the highest prediction score. Models under consideration are a simple linear regression, logistic regression (with a binary output of "won a medal" vs. "did not win a medal"), and a decision tree/random forest model. Optimally, we can rank predictions of olympic peformance at the athlete level, but also grouping them by country.  
