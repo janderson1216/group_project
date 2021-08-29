@@ -39,6 +39,14 @@ The machine learning model will be created with the SciKitLearn and ImbalancedLe
 ### Dashboard
 The group plans to utilize a Tableau dashboard to present the findings and allow users to sort and filter data based on their required analysis.
 
+## Communication Protocols
+* Normal meeting hours for the group will be Tuesdays and Thursdays 7PM-9PM ET. During this time, the team will discuss project status, blockers, open questions, and presentation strategies.
+* Additional meeting times may be scheduled as needed during the week as group members are available.
+* The group will communicate through a dedicated Slack channel. It is recommended that team members provide updates through Slack when updates are made to the GitHub repository.
+* Emergency Protocols:
+  * If a group member is unable to complete a weekly task due to scheduling conflicts, they should message the group in Slack discussing new timelines and determine if other members can fill in.
+  * If the owner of the main repository is unable to continue working, the group should clone the repository, including all branches, and designate a new owner of the repository. 
+
 ## Open Questions and Comments
 * Can we find similar data for the 2012 and 2020 olympics? What transformation steps would need to be taken to ensure new data can be standardized so the model is reusable?
 * Instead of total medals, total medals per capita may be increase the accuracy of the model. For example, Netherlands has a similar GDP per capita as the US, but had around 80% less medals than the US. This could be due mainly to population differences and could be held constant using per capita dependent variable.
