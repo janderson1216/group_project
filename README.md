@@ -1,5 +1,7 @@
 # group_project
 
+## Database/ETL
+
 ## Proposal
 Why do some countries outperform others in the Olympics? What factors influence olympic performance at the country and athlete level? What countries and athletes are most likely to have a stronger performance at the next olympics? This proposal seeks to answer those questions. Using the vast dataset from the 2016 olympics, we seek to determine the most influential factors that relate to medal performance of olympic athletes, and build a predictive model that can forecast olympic performance for the next summer olympics. 
 
@@ -8,6 +10,8 @@ This analysis could provide multiple investment opportunities related to sports/
 ## Data set 
 Official dataset outlining olympic events, athletes, participating countries, and medal counts. 
 https://www.kaggle.com/rio2016/olympic-games
+
+## Database/ETL
 
 ## Group Roles 
 * Github master (square) - Janelle 
