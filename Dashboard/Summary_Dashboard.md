@@ -1,6 +1,6 @@
 # Dashboard Summary
 
-The dashboard for the group project will utilize JavaScript, Mapbox, and html. A draft dashboard was created in Tableau for the Section 2 deliverables to show the base dashboard format and functionality.
+The dashboard for the group project will utilize JavaScript, Mapbox, Plotly, and HTML. A draft dashboard was created in Tableau for the Section 2 deliverables to show the base dashboard format and functionality.
 
 ### The dashboard will be broken down into 4 sections:
 1. Filter functions on country and sport
