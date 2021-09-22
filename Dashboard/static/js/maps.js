@@ -2,21 +2,28 @@
 console.log("working");
 
 // Tile layer for map background
-let streets = L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/streets-v11/tiles/{z}/{x}/{y}?access_token={accessToken}', {
+let dark = L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
               attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
-              minZoom: 1,
+              minZoom: .5,
               maxZoom: 18,
-              id: 'mapbox/streets-v11',
+              id: 'mapbox/dark-v10',
               tileSize: 512,
               zoomOffset: -1,
               accessToken: API_KEY
               });
 
+// Set boundries for map
+const bounds = [
+    [-70, -170],
+    [84, 170]
+    ];
+
 // Create map object
 let map = L.map('mapid', {
 	center: [40.7, 0],
-	zoom: 2,
-	layers: [streets]
+	zoom: 1.5,
+	layers: [dark],
+    maxBounds: bounds
 });
 
 /////////////////////////////////////////////////////////
@@ -32,64 +39,78 @@ let baseMaps = {baseLayer};
 
 // Add layer group
 let gdpOverlay = new L.LayerGroup();
+let medalsOverlay = new L.LayerGroup();
+let medalsPopOverlay = new L.LayerGroup();
+let medalsGdpOverlay = new L.LayerGroup();
 
 // GDP layer
 L.geoJson(countryOutline, {
-    style: styleInfo,
+    style: gdpStyleInfo,
     onEachFeature: addPopup
 }).addTo(gdpOverlay);
 
+// Medals layer
+L.geoJson(countryOutline, {
+    style: medalsStyleInfo,
+    onEachFeature: addPopup,
+}).addTo(medalsOverlay);
+
+// Medals per capita
+L.geoJson(countryOutline, {
+    style: medalsPopStyleInfo,
+    onEachFeature: addPopup,
+}).addTo(medalsPopOverlay);
+
+// Medals per GDP
+L.geoJson(countryOutline, {
+    style: medalsGdpStyleInfo,
+    onEachFeature: addPopup
+}).addTo(medalsGdpOverlay);
+
+
 // Add overlays
 let overlays = {
-    'GDP': gdpOverlay
+    'GDP (USD)': gdpOverlay,
+    'Total Medals': medalsOverlay,
+    'Medals per Capita (millions)': medalsGdpOverlay,
+    'Medals per GDP (USD in thousands)': medalsPopOverlay,
 };
 
 /////////////////////////////////////////////////////////
 
 // CONTROL DEFINITION AND LEGEND
-L.control.layers(baseMaps, overlays).addTo(map);
+L.control.layers(overlays).addTo(map);
 
-// Create Legend
+// Update legend on layer change
 
-// Define Control Legend
-let legend = L.control({
-    position: "topright"
-    });
-    
-    // Add details
-    legend.onAdd = function() {
-    let div = L.DomUtil.create("div", "info legend");
-    
-    const gdpIntervals = ['$0',
-                          '$1,000', 
-                          '$5,000', 
-                          '$10,000', 
-                          '$25,000', 
-                          '$50,000', 
-                          '$75,000',
-                          '$100,000'];
-    const colors = [
-        '#FFEDA0',
-        '#FED976',
-        '#FEB24C',
-        '#FD8D3C',
-        '#FC4E2A',
-        '#E31A1C',
-        '#BD0026',
-        '#800026'
-    ];
-    // Looping through our intervals to generate a label with a colored square for each interval.
-    for (var i = 0; i < gdpIntervals.length; i++) {
-        console.log(colors[i]);
-        div.innerHTML +=
-        "<i style='background: " + colors[i] + "'></i> " +
-        gdpIntervals[i] + (gdpIntervals[i + 1] ? "&ndash;" + gdpIntervals[i + 1] + "<br>" : "+");
-        }
-        return div;
-    };
-    
-    // Finally, we our legend to the map.
-    legend.addTo(map);
+map.on('baselayerchange', function (eventLayer) {
+    console.log(eventLayer.name)
+    if (eventLayer.name === 'GDP (USD)') {
+        gdpLegend.addTo(map);
+        map.removeControl(medalsLegend);
+        map.removeControl(medalsPopLegend);
+        map.removeControl(medalsGdpLegend);
+                                    }
+    else if (eventLayer.name === 'Total Medals') {
+        medalsLegend.addTo(map);
+        map.removeControl(gdpLegend);
+        map.removeControl(medalsPopLegend);
+        map.removeControl(medalsGdpLegend);        
+                                    } 
+    else if (eventLayer.name === 'Medals per Capita (millions)') {
+        medalsPopLegend.addTo(map);
+        map.removeControl(gdpLegend);
+        map.removeControl(medalsLegend);
+        map.removeControl(medalsGdpLegend);        
+                                    } 
+    else if (eventLayer.name === 'Medals per GDP (USD in thousands)') {
+        medalsGdpLegend.addTo(map);
+        map.removeControl(gdpLegend);
+        map.removeControl(medalsLegend);
+        map.removeControl(medalsPopLegend);        
+                                    }       
+});
+
 
 /////////////////////////////////////////////////////////
 
@@ -110,38 +131,3 @@ function addPopup(feature, layer){
 };
 
 /////////////////////////////////////////////////////////
-
-// GDP Layer Styling
-function styleInfo(feature) {
-    return {
-      opacity: 1,
-      fillOpacity: .5,
-      fillColor: getColor(feature.properties.gdp_per_capita),
-      color: "#000000",
-    };
-  }
-
-function getColor(gdp) {
-    if (gdp > 100000) {
-        return '#800026';
-    }
-    if (gdp > 75000) {
-        return '#BD0026';
-    }
-    if (gdp > 50000) {
-        return '#E31A1C';
-    }
-    if (gdp > 25000) {
-        return '#FC4E2A';
-    }
-    if (gdp > 10000) {
-        return '#FD8D3C';
-    }
-    if (gdp > 5000) {
-        return '#FEB24C';
-    }
-    if (gdp > 1000) {
-        return '#FED976';
-    }
-    return '#FFEDA0';
-                        };
