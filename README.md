@@ -1,4 +1,5 @@
 # Group Project
+![OLY](https://user-images.githubusercontent.com/80009944/134416890-a6424eff-fc61-422f-a7c2-3c9c3402ce48.PNG)
 
 ## Proposal
 Why do some countries outperform others in the Olympics? What factors influence olympic performance at the country and athlete level? What countries and athletes are most likely to have a stronger performance at the next olympics? This proposal seeks to answer these questions. Using the vast dataset from the 2016 olympics, we seek to determine the most influential factors that relate to medal performance of olympic athletes, and build a predictive model that can forecast athlete performance for the next summer olympics. 
@@ -37,6 +38,9 @@ Python will be the main language used for data cleaning and analysis. Several pa
 
 ### Database Storage
 The data for the project will be stored in a PostgreSQL relational database.
+![ERD](https://user-images.githubusercontent.com/80009944/134412984-187f4760-bfbc-4bfa-8d7f-cf71ccd77b99.PNG)
+![OLY](https://user-images.githubusercontent.com/80009944/134417060-5e37bb39-3c54-40a0-be9d-8a3d8602feb4.PNG)
+
 
 ### Machine Learning
 The machine learning model will be created with the SciKitLearn and ImbalancedLearn packages. As the project will require over/under sampling due to class imbalances, the approach will rely on either random over/under-sampling, SMOTE, Cluster Centroid Undersampling, or SMOTEENN.
