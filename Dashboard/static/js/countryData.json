@@ -1,0 +1,1210 @@
+{
+    "countryData": [
+        {
+            "country": "Afghanistan",
+            "code": "AFG",
+            "population": "32526562",
+            "gdp_per_capita": "594.323081219966"
+        },
+        {
+            "country": "Albania",
+            "code": "ALB",
+            "population": "2889167",
+            "gdp_per_capita": "3945.21758150914"
+        },
+        {
+            "country": "Algeria",
+            "code": "ALG",
+            "population": "39666519",
+            "gdp_per_capita": "4206.03123244958"
+        },
+        {
+            "country": "American Samoa*",
+            "code": "ASA",
+            "population": "55538",
+            "gdp_per_capita": ""
+        },
+        {
+            "country": "Andorra",
+            "code": "AND",
+            "population": "70473",
+            "gdp_per_capita": ""
+        },
+        {
+            "country": "Angola",
+            "code": "ANG",
+            "population": "25021974",
+            "gdp_per_capita": "4101.47215182964"
+        },
+        {
+            "country": "Antigua and Barbuda",
+            "code": "ANT",
+            "population": "91818",
+            "gdp_per_capita": "13714.7319616988"
+        },
+        {
+            "country": "Argentina",
+            "code": "ARG",
+            "population": "43416755",
+            "gdp_per_capita": "13431.8783398577"
+        },
+        {
+            "country": "Armenia",
+            "code": "ARM",
+            "population": "3017712",
+            "gdp_per_capita": "3489.12768956995"
+        },
+        {
+            "country": "Aruba*",
+            "code": "ARU",
+            "population": "103889",
+            "gdp_per_capita": ""
+        },
+        {
+            "country": "Australia",
+            "code": "AUS",
+            "population": "23781169",
+            "gdp_per_capita": "56310.9629933721"
+        },
+        {
+            "country": "Austria",
+            "code": "AUT",
+            "population": "8611088",
+            "gdp_per_capita": "43774.985173612"
+        },
+        {
+            "country": "Azerbaijan",
+            "code": "AZE",
+            "population": "9651349",
+            "gdp_per_capita": "5496.34464026248"
+        },
+        {
+            "country": "Bahamas",
+            "code": "BAH",
+            "population": "388019",
+            "gdp_per_capita": "22817.2308572518"
+        },
+        {
+            "country": "Bahrain",
+            "code": "BRN",
+            "population": "1377237",
+            "gdp_per_capita": "22600.2140981035"
+        },
+        {
+            "country": "Bangladesh",
+            "code": "BAN",
+            "population": "160995642",
+            "gdp_per_capita": "1211.70153057661"
+        },
+        {
+            "country": "Barbados",
+            "code": "BAR",
+            "population": "284215",
+            "gdp_per_capita": "15429.3404640853"
+        },
+        {
+            "country": "Belarus",
+            "code": "BLR",
+            "population": "9513000",
+            "gdp_per_capita": "5740.45649479562"
+        },
+        {
+            "country": "Belgium",
+            "code": "BEL",
+            "population": "11285721",
+            "gdp_per_capita": "40324.0277657215"
+        },
+        {
+            "country": "Belize",
+            "code": "BIZ",
+            "population": "359287",
+            "gdp_per_capita": "4878.72126724745"
+        },
+        {
+            "country": "Bermuda*",
+            "code": "BER",
+            "population": "65235",
+            "gdp_per_capita": ""
+        },
+        {
+            "country": "Benin",
+            "code": "BEN",
+            "population": "10879829",
+            "gdp_per_capita": "762.051205441965"
+        },
+        {
+            "country": "Bhutan",
+            "code": "BHU",
+            "population": "774830",
+            "gdp_per_capita": "2655.99889161858"
+        },
+        {
+            "country": "Bolivia",
+            "code": "BOL",
+            "population": "10724705",
+            "gdp_per_capita": "3076.79181060881"
+        },
+        {
+            "country": "Bosnia and Herzegovina",
+            "code": "BIH",
+            "population": "3810416",
+            "gdp_per_capita": "4249.3303131949"
+        },
+        {
+            "country": "Botswana",
+            "code": "BOT",
+            "population": "2262485",
+            "gdp_per_capita": "6360.13822018837"
+        },
+        {
+            "country": "Brazil",
+            "code": "BRA",
+            "population": "207847528",
+            "gdp_per_capita": "8538.5899749574"
+        },
+        {
+            "country": "British Virgin Islands",
+            "code": "IVB",
+            "population": "30117",
+            "gdp_per_capita": ""
+        },
+        {
+            "country": "Brunei",
+            "code": "BRU",
+            "population": "423188",
+            "gdp_per_capita": "30554.7296658073"
+        },
+        {
+            "country": "Bulgaria",
+            "code": "BUL",
+            "population": "7177991",
+            "gdp_per_capita": "6993.47735975728"
+        },
+        {
+            "country": "Burkina Faso",
+            "code": "BUR",
+            "population": "18105570",
+            "gdp_per_capita": "589.774414136617"
+        },
+        {
+            "country": "Burundi",
+            "code": "BDI",
+            "population": "11178921",
+            "gdp_per_capita": "277.068309170914"
+        },
+        {
+            "country": "Cambodia",
+            "code": "CAM",
+            "population": "15577899",
+            "gdp_per_capita": "1158.6899035244"
+        },
+        {
+            "country": "Cameroon",
+            "code": "CMR",
+            "population": "23344179",
+            "gdp_per_capita": "1217.26067048427"
+        },
+        {
+            "country": "Canada",
+            "code": "CAN",
+            "population": "35851774",
+            "gdp_per_capita": "43248.529909341"
+        },
+        {
+            "country": "Cape Verde",
+            "code": "CPV",
+            "population": "520502",
+            "gdp_per_capita": "3080.17881445563"
+        },
+        {
+            "country": "Cayman Islands*",
+            "code": "CAY",
+            "population": "59967",
+            "gdp_per_capita": ""
+        },
+        {
+            "country": "Central African Republic",
+            "code": "CAF",
+            "population": "4900274",
+            "gdp_per_capita": "323.201674024141"
+        },
+        {
+            "country": "Chad",
+            "code": "CHA",
+            "population": "14037472",
+            "gdp_per_capita": "775.695090525313"
+        },
+        {
+            "country": "Chile",
+            "code": "CHI",
+            "population": "17948141",
+            "gdp_per_capita": "13416.2300390185"
+        },
+        {
+            "country": "China",
+            "code": "CHN",
+            "population": "1371220000",
+            "gdp_per_capita": "8027.68381013907"
+        },
+        {
+            "country": "Colombia",
+            "code": "COL",
+            "population": "48228704",
+            "gdp_per_capita": "6056.14771720405"
+        },
+        {
+            "country": "Comoros",
+            "code": "COM",
+            "population": "788474",
+            "gdp_per_capita": "717.448849960912"
+        },
+        {
+            "country": "Congo",
+            "code": "CGO",
+            "population": "4620330",
+            "gdp_per_capita": "1851.19991555492"
+        },
+        {
+            "country": "Congo, Dem Rep",
+            "code": "COD",
+            "population": "77266814",
+            "gdp_per_capita": "456.052740548027"
+        },
+        {
+            "country": "Cook Islands",
+            "code": "COK",
+            "population": "",
+            "gdp_per_capita": ""
+        },
+        {
+            "country": "Costa Rica",
+            "code": "CRC",
+            "population": "4807850",
+            "gdp_per_capita": "11260.0921598775"
+        },
+        {
+            "country": "Cote d'Ivoire",
+            "code": "CIV",
+            "population": "22701556",
+            "gdp_per_capita": "1398.98995768413"
+        },
+        {
+            "country": "Croatia",
+            "code": "CRO",
+            "population": "4224404",
+            "gdp_per_capita": "11535.8293558997"
+        },
+        {
+            "country": "Cuba",
+            "code": "CUB",
+            "population": "11389562",
+            "gdp_per_capita": ""
+        },
+        {
+            "country": "Cyprus",
+            "code": "CYP",
+            "population": "1165300",
+            "gdp_per_capita": "23242.8400685313"
+        },
+        {
+            "country": "Czech Republic",
+            "code": "CZE",
+            "population": "10551219",
+            "gdp_per_capita": "17548.3382129701"
+        },
+        {
+            "country": "Denmark",
+            "code": "DEN",
+            "population": "5676002",
+            "gdp_per_capita": "51989.2934712354"
+        },
+        {
+            "country": "Djibouti",
+            "code": "DJI",
+            "population": "887861",
+            "gdp_per_capita": "1945.12429310444"
+        },
+        {
+            "country": "Dominica",
+            "code": "DMA",
+            "population": "72680",
+            "gdp_per_capita": "7116.38639189547"
+        },
+        {
+            "country": "Dominican Republic",
+            "code": "DOM",
+            "population": "10528391",
+            "gdp_per_capita": "6468.4734915433"
+        },
+        {
+            "country": "East Timor (Timor-Leste)",
+            "code": "TLS",
+            "population": "1245015",
+            "gdp_per_capita": "1157.99295590816"
+        },
+        {
+            "country": "Ecuador",
+            "code": "ECU",
+            "population": "16144363",
+            "gdp_per_capita": "6205.06414529951"
+        },
+        {
+            "country": "Egypt",
+            "code": "EGY",
+            "population": "91508084",
+            "gdp_per_capita": "3614.74676616271"
+        },
+        {
+            "country": "El Salvador",
+            "code": "ESA",
+            "population": "6126583",
+            "gdp_per_capita": "4219.35032953932"
+        },
+        {
+            "country": "Equatorial Guinea",
+            "code": "GEQ",
+            "population": "845060",
+            "gdp_per_capita": "14439.5944478516"
+        },
+        {
+            "country": "Eritrea",
+            "code": "ERI",
+            "population": "",
+            "gdp_per_capita": ""
+        },
+        {
+            "country": "Estonia",
+            "code": "EST",
+            "population": "1311998",
+            "gdp_per_capita": "17118.5042003236"
+        },
+        {
+            "country": "Ethiopia",
+            "code": "ETH",
+            "population": "99390750",
+            "gdp_per_capita": "619.169406475891"
+        },
+        {
+            "country": "Fiji",
+            "code": "FIJ",
+            "population": "892145",
+            "gdp_per_capita": "4960.51995438419"
+        },
+        {
+            "country": "Finland",
+            "code": "FIN",
+            "population": "5482013",
+            "gdp_per_capita": "42311.0362306446"
+        },
+        {
+            "country": "France",
+            "code": "FRA",
+            "population": "66808385",
+            "gdp_per_capita": "36205.5681017036"
+        },
+        {
+            "country": "Gabon",
+            "code": "GAB",
+            "population": "1725292",
+            "gdp_per_capita": "8266.4456050624"
+        },
+        {
+            "country": "Gambia",
+            "code": "GAM",
+            "population": "1990924",
+            "gdp_per_capita": "471.537195472347"
+        },
+        {
+            "country": "Georgia",
+            "code": "GEO",
+            "population": "3679000",
+            "gdp_per_capita": "3795.97330845042"
+        },
+        {
+            "country": "Germany",
+            "code": "GER",
+            "population": "81413145",
+            "gdp_per_capita": "41313.3139945434"
+        },
+        {
+            "country": "Ghana",
+            "code": "GHA",
+            "population": "27409893",
+            "gdp_per_capita": "1369.70112227585"
+        },
+        {
+            "country": "Greece",
+            "code": "GRE",
+            "population": "10823732",
+            "gdp_per_capita": "18002.2305776688"
+        },
+        {
+            "country": "Grenada",
+            "code": "GRN",
+            "population": "106825",
+            "gdp_per_capita": "9212.02035173484"
+        },
+        {
+            "country": "Guam",
+            "code": "GUM",
+            "population": "169885",
+            "gdp_per_capita": ""
+        },
+        {
+            "country": "Guatemala",
+            "code": "GUA",
+            "population": "16342897",
+            "gdp_per_capita": "3903.47885604613"
+        },
+        {
+            "country": "Guinea",
+            "code": "GUI",
+            "population": "12608590",
+            "gdp_per_capita": "531.320595188714"
+        },
+        {
+            "country": "Guinea-Bissau",
+            "code": "GBS",
+            "population": "1844325",
+            "gdp_per_capita": "572.988428543071"
+        },
+        {
+            "country": "Guyana",
+            "code": "GUY",
+            "population": "767085",
+            "gdp_per_capita": "4127.35101806198"
+        },
+        {
+            "country": "Haiti",
+            "code": "HAI",
+            "population": "10711067",
+            "gdp_per_capita": "818.343297634549"
+        },
+        {
+            "country": "Honduras",
+            "code": "HON",
+            "population": "8075060",
+            "gdp_per_capita": "2528.89354988523"
+        },
+        {
+            "country": "Hong Kong*",
+            "code": "HKG",
+            "population": "7305700",
+            "gdp_per_capita": "42327.8399570345"
+        },
+        {
+            "country": "Hungary",
+            "code": "HUN",
+            "population": "9844686",
+            "gdp_per_capita": "12363.5434596539"
+        },
+        {
+            "country": "Iceland",
+            "code": "ISL",
+            "population": "330823",
+            "gdp_per_capita": "50173.3399156473"
+        },
+        {
+            "country": "India",
+            "code": "IND",
+            "population": "1311050527",
+            "gdp_per_capita": "1598.25903421916"
+        },
+        {
+            "country": "Indonesia",
+            "code": "INA",
+            "population": "257563815",
+            "gdp_per_capita": "3346.48703949478"
+        },
+        {
+            "country": "Iran",
+            "code": "IRI",
+            "population": "79109272",
+            "gdp_per_capita": ""
+        },
+        {
+            "country": "Iraq",
+            "code": "IRQ",
+            "population": "36423395",
+            "gdp_per_capita": "4943.76038832056"
+        },
+        {
+            "country": "Ireland",
+            "code": "IRL",
+            "population": "4640703",
+            "gdp_per_capita": "61133.672427322"
+        },
+        {
+            "country": "Israel",
+            "code": "ISR",
+            "population": "8380400",
+            "gdp_per_capita": "35728.0934951515"
+        },
+        {
+            "country": "Italy",
+            "code": "ITA",
+            "population": "60802085",
+            "gdp_per_capita": "29957.8043154372"
+        },
+        {
+            "country": "Jamaica",
+            "code": "JAM",
+            "population": "2725941",
+            "gdp_per_capita": "5232.02458271187"
+        },
+        {
+            "country": "Japan",
+            "code": "JPN",
+            "population": "126958472",
+            "gdp_per_capita": "32477.2151449234"
+        },
+        {
+            "country": "Jordan",
+            "code": "JOR",
+            "population": "7594547",
+            "gdp_per_capita": "4940.04583574111"
+        },
+        {
+            "country": "Kazakhstan",
+            "code": "KAZ",
+            "population": "17544126",
+            "gdp_per_capita": "10509.9810699442"
+        },
+        {
+            "country": "Kenya",
+            "code": "KEN",
+            "population": "46050302",
+            "gdp_per_capita": "1376.71282894881"
+        },
+        {
+            "country": "Korea, North",
+            "code": "PRK",
+            "population": "25155317",
+            "gdp_per_capita": ""
+        },
+        {
+            "country": "Korea, South",
+            "code": "KOR",
+            "population": "50617045",
+            "gdp_per_capita": "27221.5240509661"
+        },
+        {
+            "country": "Kuwait",
+            "code": "KUW",
+            "population": "3892115",
+            "gdp_per_capita": "29300.5755750333"
+        },
+        {
+            "country": "Kyrgyzstan",
+            "code": "KGZ",
+            "population": "5957000",
+            "gdp_per_capita": "1103.2153515202"
+        },
+        {
+            "country": "Laos",
+            "code": "LAO",
+            "population": "6802023",
+            "gdp_per_capita": "1818.44137293236"
+        },
+        {
+            "country": "Latvia",
+            "code": "LAT",
+            "population": "1978440",
+            "gdp_per_capita": "13648.5475564772"
+        },
+        {
+            "country": "Lebanon",
+            "code": "LIB",
+            "population": "5850743",
+            "gdp_per_capita": "8047.64508557496"
+        },
+        {
+            "country": "Lesotho",
+            "code": "LES",
+            "population": "2135022",
+            "gdp_per_capita": "1066.98562625017"
+        },
+        {
+            "country": "Liberia",
+            "code": "LBR",
+            "population": "4503438",
+            "gdp_per_capita": "455.873934536237"
+        },
+        {
+            "country": "Libya",
+            "code": "LBA",
+            "population": "6278438",
+            "gdp_per_capita": ""
+        },
+        {
+            "country": "Liechtenstein",
+            "code": "LIE",
+            "population": "37531",
+            "gdp_per_capita": ""
+        },
+        {
+            "country": "Lithuania",
+            "code": "LTU",
+            "population": "2910199",
+            "gdp_per_capita": "14147.0493792403"
+        },
+        {
+            "country": "Luxembourg",
+            "code": "LUX",
+            "population": "569676",
+            "gdp_per_capita": "101449.968168042"
+        },
+        {
+            "country": "Macedonia",
+            "code": "MKD",
+            "population": "2078453",
+            "gdp_per_capita": "4852.6578476699"
+        },
+        {
+            "country": "Madagascar",
+            "code": "MAD",
+            "population": "24235390",
+            "gdp_per_capita": "401.836006029745"
+        },
+        {
+            "country": "Malawi",
+            "code": "MAW",
+            "population": "17215232",
+            "gdp_per_capita": "371.985747810344"
+        },
+        {
+            "country": "Malaysia",
+            "code": "MAS",
+            "population": "30331007",
+            "gdp_per_capita": "9768.32686011881"
+        },
+        {
+            "country": "Maldives",
+            "code": "MDV",
+            "population": "409163",
+            "gdp_per_capita": "8395.78519750383"
+        },
+        {
+            "country": "Mali",
+            "code": "MLI",
+            "population": "17599694",
+            "gdp_per_capita": "724.256283193304"
+        },
+        {
+            "country": "Malta",
+            "code": "MLT",
+            "population": "431333",
+            "gdp_per_capita": "22596.1817742659"
+        },
+        {
+            "country": "Mauritania",
+            "code": "MTN",
+            "population": "4067564",
+            "gdp_per_capita": ""
+        },
+        {
+            "country": "Mauritius",
+            "code": "MRI",
+            "population": "1262605",
+            "gdp_per_capita": "9252.11072429051"
+        },
+        {
+            "country": "Mexico",
+            "code": "MEX",
+            "population": "127017224",
+            "gdp_per_capita": "9005.02426497766"
+        },
+        {
+            "country": "Micronesia",
+            "code": "FSM",
+            "population": "104460",
+            "gdp_per_capita": "3015.23166762397"
+        },
+        {
+            "country": "Moldova",
+            "code": "MDA",
+            "population": "3554150",
+            "gdp_per_capita": "1848.06180430428"
+        },
+        {
+            "country": "Monaco",
+            "code": "MON",
+            "population": "37731",
+            "gdp_per_capita": ""
+        },
+        {
+            "country": "Mongolia",
+            "code": "MGL",
+            "population": "2959134",
+            "gdp_per_capita": "3967.82938559498"
+        },
+        {
+            "country": "Morocco",
+            "code": "MAR",
+            "population": "34377511",
+            "gdp_per_capita": "2878.20134215919"
+        },
+        {
+            "country": "Mozambique",
+            "code": "MOZ",
+            "population": "27977863",
+            "gdp_per_capita": "529.242556068943"
+        },
+        {
+            "country": "Burma",
+            "code": "MYA",
+            "population": "53897154",
+            "gdp_per_capita": "1161.48815791087"
+        },
+        {
+            "country": "Namibia",
+            "code": "NAM",
+            "population": "2458830",
+            "gdp_per_capita": "4673.56724769495"
+        },
+        {
+            "country": "Nauru",
+            "code": "NRU",
+            "population": "10222",
+            "gdp_per_capita": "9827.54428148233"
+        },
+        {
+            "country": "Nepal",
+            "code": "NEP",
+            "population": "28513700",
+            "gdp_per_capita": "743.322965726435"
+        },
+        {
+            "country": "Netherlands",
+            "code": "NED",
+            "population": "16936520",
+            "gdp_per_capita": "44299.768085383"
+        },
+        {
+            "country": "Netherlands Antilles*",
+            "code": "AHO",
+            "population": "",
+            "gdp_per_capita": ""
+        },
+        {
+            "country": "New Zealand",
+            "code": "NZL",
+            "population": "4595700",
+            "gdp_per_capita": "37807.9672760442"
+        },
+        {
+            "country": "Nicaragua",
+            "code": "NCA",
+            "population": "6082032",
+            "gdp_per_capita": "2086.89500277099"
+        },
+        {
+            "country": "Niger",
+            "code": "NIG",
+            "population": "19899120",
+            "gdp_per_capita": "358.958152040005"
+        },
+        {
+            "country": "Nigeria",
+            "code": "NGR",
+            "population": "182201962",
+            "gdp_per_capita": "2640.2907388575"
+        },
+        {
+            "country": "Norway",
+            "code": "NOR",
+            "population": "5195921",
+            "gdp_per_capita": "74400.3697770928"
+        },
+        {
+            "country": "Oman",
+            "code": "OMA",
+            "population": "4490541",
+            "gdp_per_capita": "15550.6762514328"
+        },
+        {
+            "country": "Pakistan",
+            "code": "PAK",
+            "population": "188924874",
+            "gdp_per_capita": "1434.69666504969"
+        },
+        {
+            "country": "Palau",
+            "code": "PLW",
+            "population": "21291",
+            "gdp_per_capita": "13498.661406228"
+        },
+        {
+            "country": "Palestine, Occupied Territories",
+            "code": "PLE",
+            "population": "",
+            "gdp_per_capita": ""
+        },
+        {
+            "country": "Panama",
+            "code": "PAN",
+            "population": "3929141",
+            "gdp_per_capita": "13268.1137549335"
+        },
+        {
+            "country": "Papua New Guinea",
+            "code": "PNG",
+            "population": "7619321",
+            "gdp_per_capita": ""
+        },
+        {
+            "country": "Paraguay",
+            "code": "PAR",
+            "population": "6639123",
+            "gdp_per_capita": "4080.95144785437"
+        },
+        {
+            "country": "Peru",
+            "code": "PER",
+            "population": "31376670",
+            "gdp_per_capita": "6027.12585529551"
+        },
+        {
+            "country": "Philippines",
+            "code": "PHI",
+            "population": "100699395",
+            "gdp_per_capita": "2904.20208191528"
+        },
+        {
+            "country": "Poland",
+            "code": "POL",
+            "population": "37999494",
+            "gdp_per_capita": "12554.5475536313"
+        },
+        {
+            "country": "Portugal",
+            "code": "POR",
+            "population": "10348648",
+            "gdp_per_capita": "19222.1500764153"
+        },
+        {
+            "country": "Puerto Rico*",
+            "code": "PUR",
+            "population": "3474182",
+            "gdp_per_capita": ""
+        },
+        {
+            "country": "Qatar",
+            "code": "QAT",
+            "population": "2235355",
+            "gdp_per_capita": "73653.3944346574"
+        },
+        {
+            "country": "Romania",
+            "code": "ROM",
+            "population": "19832389",
+            "gdp_per_capita": "8972.92251840971"
+        },
+        {
+            "country": "Russia",
+            "code": "RUS",
+            "population": "144096812",
+            "gdp_per_capita": "9092.58053606884"
+        },
+        {
+            "country": "Rwanda",
+            "code": "RWA",
+            "population": "11609666",
+            "gdp_per_capita": "697.34822808289"
+        },
+        {
+            "country": "Saint Kitts and Nevis",
+            "code": "SKN",
+            "population": "55572",
+            "gdp_per_capita": "15771.9455041308"
+        },
+        {
+            "country": "Saint Lucia",
+            "code": "LCA",
+            "population": "184999",
+            "gdp_per_capita": "7735.91048440102"
+        },
+        {
+            "country": "Saint Vincent and the Grenadines",
+            "code": "VIN",
+            "population": "109462",
+            "gdp_per_capita": "6739.17483286945"
+        },
+        {
+            "country": "Samoa",
+            "code": "SAM",
+            "population": "193228",
+            "gdp_per_capita": "3938.54884570316"
+        },
+        {
+            "country": "San Marino",
+            "code": "SMR",
+            "population": "31781",
+            "gdp_per_capita": ""
+        },
+        {
+            "country": "Sao Tome and Principe",
+            "code": "STP",
+            "population": "190344",
+            "gdp_per_capita": "1669.06326801326"
+        },
+        {
+            "country": "Saudi Arabia",
+            "code": "KSA",
+            "population": "31540372",
+            "gdp_per_capita": "20481.7453220484"
+        },
+        {
+            "country": "Senegal",
+            "code": "SEN",
+            "population": "15129273",
+            "gdp_per_capita": "899.579879484977"
+        },
+        {
+            "country": "Serbia",
+            "code": "SCG",
+            "population": "7098247",
+            "gdp_per_capita": "5235.14220696525"
+        },
+        {
+            "country": "Seychelles",
+            "code": "SEY",
+            "population": "92900",
+            "gdp_per_capita": "15476.01944443"
+        },
+        {
+            "country": "Sierra Leone",
+            "code": "SLE",
+            "population": "6453184",
+            "gdp_per_capita": "653.131815940648"
+        },
+        {
+            "country": "Singapore",
+            "code": "SIN",
+            "population": "5535002",
+            "gdp_per_capita": "52888.7446717529"
+        },
+        {
+            "country": "Slovakia",
+            "code": "SVK",
+            "population": "5424050",
+            "gdp_per_capita": "16088.2775872723"
+        },
+        {
+            "country": "Slovenia",
+            "code": "SLO",
+            "population": "2063768",
+            "gdp_per_capita": "20726.5398863708"
+        },
+        {
+            "country": "Solomon Islands",
+            "code": "SOL",
+            "population": "583591",
+            "gdp_per_capita": "1934.85629287353"
+        },
+        {
+            "country": "Somalia",
+            "code": "SOM",
+            "population": "10787104",
+            "gdp_per_capita": "549.266976567576"
+        },
+        {
+            "country": "South Africa",
+            "code": "RSA",
+            "population": "54956920",
+            "gdp_per_capita": "5723.97335690212"
+        },
+        {
+            "country": "Spain",
+            "code": "ESP",
+            "population": "46418269",
+            "gdp_per_capita": "25831.5823052954"
+        },
+        {
+            "country": "Sri Lanka",
+            "code": "SRI",
+            "population": "20966000",
+            "gdp_per_capita": "3926.17439589454"
+        },
+        {
+            "country": "Sudan",
+            "code": "SUD",
+            "population": "40234882",
+            "gdp_per_capita": "2414.72360102858"
+        },
+        {
+            "country": "Suriname",
+            "code": "SUR",
+            "population": "542975",
+            "gdp_per_capita": "9485.31924429496"
+        },
+        {
+            "country": "Swaziland",
+            "code": "SWZ",
+            "population": "1286970",
+            "gdp_per_capita": "3200.14301756487"
+        },
+        {
+            "country": "Sweden",
+            "code": "SWE",
+            "population": "9798871",
+            "gdp_per_capita": "50579.6736486777"
+        },
+        {
+            "country": "Switzerland",
+            "code": "SUI",
+            "population": "8286976",
+            "gdp_per_capita": "80945.0792194742"
+        },
+        {
+            "country": "Syria",
+            "code": "SYR",
+            "population": "18502413",
+            "gdp_per_capita": ""
+        },
+        {
+            "country": "Taiwan",
+            "code": "TPE",
+            "population": "",
+            "gdp_per_capita": ""
+        },
+        {
+            "country": "Tajikistan",
+            "code": "TJK",
+            "population": "8481855",
+            "gdp_per_capita": "925.91188767081"
+        },
+        {
+            "country": "Tanzania",
+            "code": "TAN",
+            "population": "53470420",
+            "gdp_per_capita": "878.97510552608"
+        },
+        {
+            "country": "Thailand",
+            "code": "THA",
+            "population": "67959359",
+            "gdp_per_capita": "5814.76976382355"
+        },
+        {
+            "country": "Togo",
+            "code": "TOG",
+            "population": "7304578",
+            "gdp_per_capita": "559.635876661945"
+        },
+        {
+            "country": "Tonga",
+            "code": "TGA",
+            "population": "106170",
+            "gdp_per_capita": "4098.54392925825"
+        },
+        {
+            "country": "Trinidad and Tobago",
+            "code": "TRI",
+            "population": "1360088",
+            "gdp_per_capita": "17321.884675056"
+        },
+        {
+            "country": "Tunisia",
+            "code": "TUN",
+            "population": "11107800",
+            "gdp_per_capita": "3872.51208364171"
+        },
+        {
+            "country": "Turkey",
+            "code": "TUR",
+            "population": "78665830",
+            "gdp_per_capita": "9125.68758972936"
+        },
+        {
+            "country": "Turkmenistan",
+            "code": "TKM",
+            "population": "5373502",
+            "gdp_per_capita": "6672.47754417351"
+        },
+        {
+            "country": "Uganda",
+            "code": "UGA",
+            "population": "39032383",
+            "gdp_per_capita": "705.292569535068"
+        },
+        {
+            "country": "Ukraine",
+            "code": "UKR",
+            "population": "45198200",
+            "gdp_per_capita": "2114.95471628444"
+        },
+        {
+            "country": "United Arab Emirates",
+            "code": "UAE",
+            "population": "9156963",
+            "gdp_per_capita": "40438.7629344394"
+        },
+        {
+            "country": "United Kingdom",
+            "code": "GBR",
+            "population": "65138232",
+            "gdp_per_capita": "43875.9696143686"
+        },
+        {
+            "country": "United States",
+            "code": "USA",
+            "population": "321418820",
+            "gdp_per_capita": "56115.7184261955"
+        },
+        {
+            "country": "Uruguay",
+            "code": "URU",
+            "population": "3431555",
+            "gdp_per_capita": "15573.9009191818"
+        },
+        {
+            "country": "Uzbekistan",
+            "code": "UZB",
+            "population": "31299500",
+            "gdp_per_capita": "2132.07036847857"
+        },
+        {
+            "country": "Vanuatu",
+            "code": "VAN",
+            "population": "264652",
+            "gdp_per_capita": "2805.31464353567"
+        },
+        {
+            "country": "Venezuela",
+            "code": "VEN",
+            "population": "31108083",
+            "gdp_per_capita": ""
+        },
+        {
+            "country": "Vietnam",
+            "code": "VIE",
+            "population": "91703800",
+            "gdp_per_capita": "2111.13802366815"
+        },
+        {
+            "country": "Virgin Islands*",
+            "code": "ISV",
+            "population": "103574",
+            "gdp_per_capita": ""
+        },
+        {
+            "country": "Yemen",
+            "code": "YEM",
+            "population": "26832215",
+            "gdp_per_capita": "1406.2916511457"
+        },
+        {
+            "country": "Zambia",
+            "code": "ZAM",
+            "population": "16211767",
+            "gdp_per_capita": "1304.87901447726"
+        },
+        {
+            "country": "Zimbabwe",
+            "code": "ZIM",
+            "population": "15602751",
+            "gdp_per_capita": "924.143819253412"
+        }
+    ]
+}
