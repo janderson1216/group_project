@@ -1,5 +1,4 @@
 # Group Project
-![OLY](https://user-images.githubusercontent.com/80009944/134416890-a6424eff-fc61-422f-a7c2-3c9c3402ce48.PNG)
 
 ## Proposal
 Why do some countries outperform others in the Olympics? What factors influence olympic performance at the country and athlete level? What countries and athletes are most likely to have a stronger performance at the next olympics? This proposal seeks to answer these questions. Using the vast dataset from the 2016 olympics, we seek to determine the most influential factors that relate to medal performance of olympic athletes, and build a predictive model that can forecast athlete performance for the next summer olympics. 
@@ -27,8 +26,6 @@ Possible Dependent Variables: total medals won, total gold/silver/bronze medals 
 Future engineering was used to create the total medals column and a logical operation to create placed column. 
 
 Overall accuracy of the model will be the primary success metric. Sensitivity will likely be a priority over precision. While we would like to be able to correctly identify all of the medalists possible (higher precision), making sure the model's predicted medalists are actually winners (higher sensitivity) is a more important consideration. 
-
-![ERD](https://user-images.githubusercontent.com/80009944/134412984-187f4760-bfbc-4bfa-8d7f-cf71ccd77b99.PNG)
 
 There will be a lot more observations on non-medalists than medalists, so it could be beneficial to include over/under sampling for our model in order to counteract some of the sampling biases inherent in the dataset. 
 
