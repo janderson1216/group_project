@@ -54,3 +54,7 @@ The group plans to utilize a Tableau dashboard to present the findings and allow
 ## Open Questions and Comments
 * Can we find similar data for the 2012 and 2020 olympics? What transformation steps would need to be taken to ensure new data can be standardized so the model is reusable?
 * Instead of total medals, total medals per capita may be increase the accuracy of the model. For example, Netherlands has a similar GDP per capita as the US, but had around 80% less medals than the US. This could be due mainly to population differences and could be held constant using per capita dependent variable.
+
+* Instead of total medals, total medals per capita may be increase the accuracy of the model. For example, Netherlands has a similar GDP per capita as the US, but had around 80% less medals than the US. This could be due mainly to population differences and could be held constant using per capita dependent variable
+
+Presentation: https://docs.google.com/presentation/d/119dXK4NeF6K_u7QxAZ-dB3C_ERA3MXeRhU5BOnpmtfA/edit?usp=sharing
