@@ -13,7 +13,7 @@ https://www.kaggle.com/rio2016/olympic-games
 ## Group Roles 
 * Github master (square) - Janelle 
 * Database (circle)- Ricardo 
-* ETL/technology (X) - Kristina 
+* ETL/technology (circle) - Kristina 
 * Machine learning (triangle) - Matt 
 * Final visuals/technology (X) - Billy 
 
@@ -60,3 +60,4 @@ The group plans to utilize a Tableau dashboard to present the findings and allow
 * Instead of total medals, total medals per capita may be increase the accuracy of the model. For example, Netherlands has a similar GDP per capita as the US, but had around 80% less medals than the US. This could be due mainly to population differences and could be held constant using per capita dependent variable
 
 Presentation: https://docs.google.com/presentation/d/119dXK4NeF6K_u7QxAZ-dB3C_ERA3MXeRhU5BOnpmtfA/edit?usp=sharing
+![OE](https://user-images.githubusercontent.com/80009944/134416703-fb57e7ac-5d5e-4978-ab8f-db18fd55ec8e.PNG)
