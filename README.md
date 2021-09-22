@@ -23,6 +23,8 @@ Our goal is to create multiple models to identify the model with the highest pre
 Possible Independent Variables (observations at the individual athlete level): height, weight, age, home country GDP per capita, sex (dummy variable), sport (dummy variables) 
 Possible Dependent Variables: total medals won, total gold/silver/bronze medals won, or a "placed" variable (a binary variable outlining if the athlete won any medal vs. not) 
 
+Future engineering was used to create the total medals column and a logical operation to create placed column. 
+
 Overall accuracy of the model will be the primary success metric. Sensitivity will likely be a priority over precision. While we would like to be able to correctly identify all of the medalists possible (higher precision), making sure the model's predicted medalists are actually winners (higher sensitivity) is a more important consideration. 
 
 There will be a lot more observations on non-medalists than medalists, so it could be beneficial to include over/under sampling for our model in order to counteract some of the sampling biases inherent in the dataset. 
