@@ -27,6 +27,8 @@ Future engineering was used to create the total medals column and a logical oper
 
 Overall accuracy of the model will be the primary success metric. Sensitivity will likely be a priority over precision. While we would like to be able to correctly identify all of the medalists possible (higher precision), making sure the model's predicted medalists are actually winners (higher sensitivity) is a more important consideration. 
 
+![ERD](https://user-images.githubusercontent.com/80009944/134412984-187f4760-bfbc-4bfa-8d7f-cf71ccd77b99.PNG)
+
 There will be a lot more observations on non-medalists than medalists, so it could be beneficial to include over/under sampling for our model in order to counteract some of the sampling biases inherent in the dataset. 
 
 ## Technology Overview
