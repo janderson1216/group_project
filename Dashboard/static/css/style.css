@@ -23,3 +23,17 @@ body,
     margin-right: 8px;
     opacity: 0.7;
   }
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td{
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+  padding-top: 4px;
+  padding-right: 16px;
+  padding-bottom: 4px;
+  padding-left: 16px;
+} 

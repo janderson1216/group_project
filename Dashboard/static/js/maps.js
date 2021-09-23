@@ -2,9 +2,9 @@
 console.log("working");
 
 // Tile layer for map background
-let dark = L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
+let darkMap = L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
               attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
-              minZoom: .5,
+              minZoom: 1.5,
               maxZoom: 18,
               id: 'mapbox/dark-v10',
               tileSize: 512,
@@ -22,7 +22,7 @@ const bounds = [
 let map = L.map('mapid', {
 	center: [40.7, 0],
 	zoom: 1.5,
-	layers: [dark],
+	layers: [darkMap],
     maxBounds: bounds
 });
 

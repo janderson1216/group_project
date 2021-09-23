@@ -1,6 +1,6 @@
-const countryStart = 'static/js/countries.json'
-const countryNames = 'static/js/countries_names.json'
-const countryData = 'static/js/countryData.json'
+const countryStart = 'static/js/data/countries.json'
+const countryNames = 'static/js/data/countries_names.json'
+const countryData = 'static/js/data/countryData.json'
 
 d3.json(countryStart).then(function(data){
     console.log(data[0].code);
@@ -29,14 +29,13 @@ function init() {
   init();
 
   function optionChanged(newCountry) {
-    buildMetadata(newCountry);
-    //buildCharts(newCountry);
+    buildDemographicData(newCountry);
   }
 
-function buildMetadata(sample) {
+function buildDemographicData(element) {
     d3.json(countryData).then((data) => {
-      var metadata = data.countryData;
-      var resultArray = metadata.filter(sampleObj => sampleObj.country == sample);
+      var DemographicData = data.countryData;
+      var resultArray = DemographicData.filter(elementObj => elementObj.country == element);
       var result = resultArray[0];
       console.log(result);
       var PANEL = d3.select("#country-data");
@@ -47,3 +46,22 @@ function buildMetadata(sample) {
       PANEL.append("h6").text('GDP Per Capita (USD): ' + result.gdp_per_capita);
     });
   }
+
+//////////////////////////////////
+
+// Add ML Summary Tables
+let tbody = d3.select("tbody");
+
+console.log(summaryML);
+
+// Compile data based on JS file
+summaryML.forEach(function(element) {
+   console.log(element);
+   let row = tbody.append("tr");
+
+  Object.entries(element).forEach(function([key, value]) {
+  console.log(key, value);
+  let cell = row.append("td");
+  cell.text(value);
+});
+});
