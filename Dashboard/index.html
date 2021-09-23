@@ -17,7 +17,7 @@
   <div class="container">
     <div class="row">
       <div class="col-md-12 jumbotron text-center">
-        <h1>Olympic Dataset Dashboard</h1>
+        <h1>Olympic Modeling Dashboard</h1>
       </div>
     </div>
     <div class="row">
@@ -34,6 +34,9 @@
           <div id="country-data" class="panel-body"></div>
         </div>
       </div>
+      <div class="col-md-8">
+        <div id="bubble"></div>       
+      </div>
     </div>
     <div class="row">
       <div class="col-md-12">
@@ -41,7 +44,32 @@
       </div>      
     </div>
   </div>
-    <!-- The div that holds our map -->
+  <br>
+  <br>
+  <div class="container">
+    <p>Summary of Machine Learning Results by Model</p>
+    <div class="col-md-12">
+      <table>
+        <thead>
+          <tr>   
+            <th> MachineLearningAlgorithm </th>
+            <th> NaiveRandomOversampling </th>
+            <th> SMOTE </th>
+            <th> UndersamplingClusterCentroids </th>
+            <th> SMOTEENN </th>
+            <th> RandomForest </th>
+            <th> RandomForestEasyEnsembleClassifier </th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  
 
 
   <!-- D3 -->
@@ -57,7 +85,13 @@
   integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
   crossorigin=""></script>
   <!-- GeoJSON JavaScript -->
-  <script type="text/javascript" src="static/js/countryDataBoundries.js"></script>
+  <script type="text/javascript" src="static/js/data/countryDataBoundries.js"></script>
+  <!-- Bar Chart Data JavaScript -->
+  <script type="text/javascript" src="static/js/data/chartData/totalMedals.js"></script>
+  <!-- Bubble Chart Data JavaScript -->
+  <script type="text/javascript" src="static/js/data/chartData/scatterMedalsGDP.js"></script>
+  <!-- ML Overview JavaScript -->
+  <script type="text/javascript" src="static/js/data/overviewML.js"></script>  
   <!-- Data JavaScript -->
   <script src="static/js/script.js"></script>
   <!-- API key -->
@@ -68,7 +102,8 @@
   <script type="text/javascript" src="static/js/legends.js"></script>
   <!-- Maps JavaScript -->
   <script type="text/javascript" src="static/js/maps.js"></script>
-
+  <!-- Plots JavaScript -->
+  <script type="text/javascript" src="static/js/plots.js"></script>
 
 </body>
 
