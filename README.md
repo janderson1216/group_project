@@ -1,4 +1,4 @@
-# Group Project
+# Olympic Games Predictions
 
 ## Proposal
 Why do some countries outperform others in the Olympics? What factors influence olympic performance at the country and athlete level? What countries and athletes are most likely to have a stronger performance at the next olympics? This proposal seeks to answer these questions. Using the vast dataset from the 2016 olympics, we seek to determine the most influential factors that relate to medal performance of olympic athletes, and build a predictive model that can forecast athlete performance for the next summer olympics. 
